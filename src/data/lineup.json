@@ -1,0 +1,109 @@
+{
+    "lineup": [
+        {
+            "day": "1",
+            "shows": [
+                {
+                    "stage": "1",
+                    "hour": "19:00",
+                    "artist": "Maneskin"
+                },
+                {
+                    "stage": "1",
+                    "hour": "20:30",
+                    "artist": "The White Stripes"
+                },
+                {
+                    "stage": "1",
+                    "hour": "22:00",
+                    "artist": "Kings of Leon"
+                },
+                {
+                    "stage": "2",
+                    "hour": "18:00",
+                    "artist": "Zedd"
+                },
+                {
+                    "stage": "2",
+                    "hour": "19:30",
+                    "artist": "Skrillex"
+                },
+                {
+                    "stage": "2",
+                    "hour": "21:30",
+                    "artist": "Marshmello"
+                }
+            ]
+        },
+        {
+            "day": "2",
+            "shows": [
+                {
+                    "stage": "1",
+                    "hour": "19:00",
+                    "artist": "Muse"
+                },
+                {
+                    "stage": "1",
+                    "hour": "21:00",
+                    "artist": "The Killers"
+                },
+                {
+                    "stage": "1",
+                    "hour": "23:00",
+                    "artist": "Imagine Dragons"
+                },
+                {
+                    "stage": "2",
+                    "hour": "19:00",
+                    "artist": "The Chainsmokers"
+                },
+                {
+                    "stage": "2",
+                    "hour": "21:00",
+                    "artist": "Martin Garrix"
+                },
+                {
+                    "stage": "2",
+                    "hour": "23:00",
+                    "artist": "David Guetta"
+                }
+            ]
+        },
+        {
+            "day": "3",
+            "shows": [
+                {
+                    "stage": "1",
+                    "hour": "18:00",
+                    "artist": "Paramore"
+                },
+                {
+                    "stage": "1",
+                    "hour": "20:00",
+                    "artist": "Green Day"
+                },
+                {
+                    "stage": "1",
+                    "hour": "22:00",
+                    "artist": "The Strokes"
+                },
+                {
+                    "stage": "2",
+                    "hour": "18:00",
+                    "artist": "Deadmau5"
+                },
+                {
+                    "stage": "2",
+                    "hour": "20:00",
+                    "artist": "Diplo"
+                },
+                {
+                    "stage": "2",
+                    "hour": "21:30",
+                    "artist": "Calvin Harris"
+                }
+            ]
+        }
+    ]
+}

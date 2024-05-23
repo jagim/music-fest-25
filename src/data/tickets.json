@@ -1,0 +1,37 @@
+{
+    "tickets": [
+        {
+            "days": "1",
+            "price": 250,
+            "includes": [
+                {
+                    "1": "Access to both stages",
+                    "2": "Food and Drink"
+                }
+            ]
+        },
+        {
+            "days": "2",
+            "price": 450,
+            "includes": [
+                {
+                    "1": "Access to both stages",
+                    "2": "Food and Drink",
+                    "3": "Event T-shirt"
+                }
+            ]
+        },
+        {
+            "days": "3",
+            "price": 600,
+            "includes": [
+                {
+                    "1": "Access to both stages",
+                    "2": "Food and Drink",
+                    "3": "Event T-shirt",
+                    "4": "VIP Access"
+                }
+            ]
+        }
+    ]
+}
