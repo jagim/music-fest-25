@@ -17,8 +17,8 @@ export default function Modal({ newPath, flag, setFlag }: Modal) {
 
     return (
         <>
-            <div id="overlay" className="w-full h-full fixed top-0 left-0 flex justify-center items-center bg-black/[0.6]">
-                <div id="image-container" className="w-[1000px] min-h-[100px] bg-slate-100 p-1">
+            <div className="w-full h-full fixed top-0 left-0 flex justify-center items-center bg-black/[0.6]">
+                <div className="w-[1000px] min-h-[100px] bg-slate-100 p-1">
                     <img src={newPath} alt="gallery image" />
                 </div>
                 <button

@@ -20,15 +20,14 @@ export default function Gallery() {
     return (
         <section className="container mx-auto mt-16" id="gallery">
             <h3 className="text-4xl text-white font-extrabold uppercase text-center">Gallery</h3>
-            <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-3 my-10 justify-items-center">
-                {imgList.map(path => (
-                    <div key={path} className="border border-white" >
-                        <img
-                            src={path} alt="gallery image"
-                            className="hover:scale-110 hover:cursor-pointer object-cover w-full h-48"
-                            onClick={handleClick}
-                        />
-                    </div>
+            <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8 p-4 my-10 justify-items-center">
+                {imgList.map((path, index) => (
+                    <img
+                        key={index}
+                        src={path} alt="gallery image"
+                        className="w-full h-40 border-4 border-white hover:scale-110 hover:cursor-pointer object-cover object-center"
+                        onClick={handleClick}
+                    />
                 ))}
             </div>
             {flag && <Modal newPath={newPath!} flag={flag} setFlag={setFlag} />}
